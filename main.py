@@ -1,4 +1,4 @@
-⁶⁸global R,B,C,Y,G,RT,CY,CO
+global R,B,C,Y,G,RT,CY,CO
 CO='\033[m'
 R='\033[1;31m'
 B='\033[1;34m'
@@ -7,7 +7,6 @@ CY='\033[1;36m'
 Y='\033[1;33m'
 G='\033[1;32m'
 RT='\033[;0m'
-
 
 
 def restart():
@@ -27,7 +26,7 @@ try:
 except:
     os.system('pip3 install requests phonenumbers urllib3 colorama bs4 html5lib argparse pytube')
     for i in range(3):
-        print(f'{C}[{Y}i{C}] 𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE! Iniciando em {i} seg...')
+        print(f'{C}[{Y}i{C}] Reiniciando o painel em {i} seg...')
         time.sleep(1)
     restart()
 
@@ -108,41 +107,40 @@ else:
 '''
 token = ["f01e0024a26baef3cc53a2ac208dd141","5072097263","25d800a8b8e8b99d77c809567aa291b8"]
 
-welcome_msg = ["𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE!", "𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE!", "𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE!", "𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE!"]
+welcome_msg = ["Que a força esteja com você", "Bem vindo", "Você é um mito", "Okaerinasai"]
 try:
     if __name__ == '__main__':
-        print(f'{G} 𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE! {C}')
+        print(f'{G} Checando por atualizacoes... {C}')
         update = subprocess.check_output('git pull', shell=True)
         if 'Already up to date' not in update.decode():
-            print(f'{G} 𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE! {C}')
+            print(f'{G}Atualizacao instalada!\nReiniciando o painel...{C}')
             time.sleep(5)
             subprocess.run('clear')
             restart()
         else:
             print('Nenhuma atualizacao disponivel.')
-            time.sleep(10)
+            time.sleep(2)
 except:
     pass
 
 if login == 1:
     tools.clear()
-print("\n")
     user = input("USERNAME:  ")
-    snh = 'elite'
+    snh = 'VirtualInsanity'
     if input("PASSWORD:  ").strip() == snh:
         tools.clear()
     else:
-        print(f"{C}[{R}ERROR{C}] KKKKK....Errou a senha fdp")
+        print(f"{C}[{R}ERROR{C}] Wrong Password....Yare Yare")
         if anim == 1:
             time.sleep(1)
         exit()
     print("\n ")
-if user == 'EFH' or user == 'EFH':
-    elitemode=1
-    elite=1
-    print(f"{C}[{Y}i{C}]Nova Opção Desbloqueada?")
+if user == 'YATO' or user == 'KINY':
+    kinymode=1
+    kiny=1
+    print(f"{C}[{Y}i{C}]Nova Opção Desbloqueada")
 else:
-    elitemode=0
+    kinymode=0
 
 try:
     os.system("pkg update")
@@ -155,7 +153,7 @@ Sair = False
 while(Sair == False):
 
     tools.clear()
-    print(f'{C}[{G}*{C}]'𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE'!')
+    print(f"Coded By: {CY} KINY {CO} and {CY} YATO {CO} in 07/02/2021")
     print()
     os.system("figlet KINY")
     print(f'{C}[{G}*{C}]'+random.choice(welcome_msg)+' '+str(user)+'!')
@@ -203,8 +201,8 @@ while(Sair == False):
     if op == '16':
     	tools.nomemae()
 
-    if op == '17' and elitemode == 1:
-        os.system('figlet ELITE')
+    if op == '17' and kinymode == 1:
+        os.system('figlet KINY')
         print()
         print(f'{C}[{G}1{C}] Gerar link whatsapp')
         print(f'{C}[{G}2{C}] Youtube downloader')
@@ -224,7 +222,7 @@ while(Sair == False):
     	write()
 
     if op == '96':
-            os.system('figlet ELITE')
+            os.system('figlet KINY')
             print(f'{C}[{G}1{C}] Login : {login}')
             print(f'{C}[{G}2{C}] Trocar APIs')
             print(f'{C}[{G}3{C}] Limpar data')
@@ -337,7 +335,7 @@ while(Sair == False):
         tools.ip(ip_api,mode,token)
 
     if op == '4' or op == '04':
-        os.system('figlet ELITE')
+        os.system('figlet KINY')
         print(f'''
 {C}[{Y}i{C}] O QUE DESEJA FAZER?
 {C}[{G}1{C}] GERAR CNPJ
