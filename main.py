@@ -1,4 +1,4 @@
-global R,B,C,Y,G,RT,CY,CO
+⁶⁸global R,B,C,Y,G,RT,CY,CO
 CO='\033[m'
 R='\033[1;31m'
 B='\033[1;34m'
@@ -138,11 +138,11 @@ print("\n")
         exit()
     print("\n ")
 if user == 'EFH' or user == 'EFH':
-    kinymode=1
-    kiny=1
+    elitemode=1
+    elite=1
     print(f"{C}[{Y}i{C}]Nova Opção Desbloqueada?")
 else:
-    kinymode=0
+    elitemode=0
 
 try:
     os.system("pkg update")
@@ -203,8 +203,8 @@ while(Sair == False):
     if op == '16':
     	tools.nomemae()
 
-    if op == '17' and kinymode == 1:
-        os.system('figlet KINY')
+    if op == '17' and elitemode == 1:
+        os.system('figlet ELITE')
         print()
         print(f'{C}[{G}1{C}] Gerar link whatsapp')
         print(f'{C}[{G}2{C}] Youtube downloader')
@@ -224,7 +224,7 @@ while(Sair == False):
     	write()
 
     if op == '96':
-            os.system('figlet KINY')
+            os.system('figlet ELITE')
             print(f'{C}[{G}1{C}] Login : {login}')
             print(f'{C}[{G}2{C}] Trocar APIs')
             print(f'{C}[{G}3{C}] Limpar data')
@@ -337,7 +337,7 @@ while(Sair == False):
         tools.ip(ip_api,mode,token)
 
     if op == '4' or op == '04':
-        os.system('figlet KINY')
+        os.system('figlet ELITE')
         print(f'''
 {C}[{Y}i{C}] O QUE DESEJA FAZER?
 {C}[{G}1{C}] GERAR CNPJ
