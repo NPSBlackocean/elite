@@ -27,7 +27,7 @@ try:
 except:
     os.system('pip3 install requests phonenumbers urllib3 colorama bs4 html5lib argparse pytube')
     for i in range(3):
-        print(f'{C}[{Y}i{C}] Reiniciando o painel!!! em {i} seg...')
+        print(f'{C}[{Y}i{C}] 𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE! Iniciando em {i} seg...')
         time.sleep(1)
     restart()
 
@@ -108,38 +108,39 @@ else:
 '''
 token = ["f01e0024a26baef3cc53a2ac208dd141","5072097263","25d800a8b8e8b99d77c809567aa291b8"]
 
-welcome_msg = ["Que a força esteja com você", "Bem vindo", "Você é um mito", "Okaerinasai"]
+welcome_msg = ["𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE!", "𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE!", "𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE!", "𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE!"]
 try:
     if __name__ == '__main__':
-        print(f'{G} Checando por atualizacoes!!! ... {C}')
+        print(f'{G} 𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE! {C}')
         update = subprocess.check_output('git pull', shell=True)
         if 'Already up to date' not in update.decode():
-            print(f'{G}Atualizacao instalada!\nReiniciando o painel...{C}')
+            print(f'{G} 𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE! {C}')
             time.sleep(5)
             subprocess.run('clear')
             restart()
         else:
             print('Nenhuma atualizacao disponivel.')
-            time.sleep(2)
+            time.sleep(10)
 except:
     pass
 
 if login == 1:
     tools.clear()
+print("\n")
     user = input("USERNAME:  ")
-    snh = 'Nps'
+    snh = 'elite'
     if input("PASSWORD:  ").strip() == snh:
         tools.clear()
     else:
-        print(f"{C}[{R}ERROR{C}] Wrong Password....Yare Yare")
+        print(f"{C}[{R}ERROR{C}] KKKKK....Errou a senha fdp")
         if anim == 1:
             time.sleep(1)
         exit()
     print("\n ")
-if user == 'YATO' or user == 'KINY':
+if user == 'EFH' or user == 'EFH':
     kinymode=1
     kiny=1
-    print(f"{C}[{Y}i{C}]Nova Opção Desbloqueada")
+    print(f"{C}[{Y}i{C}]Nova Opção Desbloqueada?")
 else:
     kinymode=0
 
@@ -154,7 +155,7 @@ Sair = False
 while(Sair == False):
 
     tools.clear()
-    print(f"Coded By: {CY} KINY {CO} and {CY} YATO {CO} in 07/02/2021")
+    print(f'{C}[{G}*{C}]'𝜩ㄥ𝐈𝐓玄  ❍ℱ  ᎻᎬŁŁ PAINEL PRIVATE'!')
     print()
     os.system("figlet KINY")
     print(f'{C}[{G}*{C}]'+random.choice(welcome_msg)+' '+str(user)+'!')
